@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './Components/About/About';
+import Animated from './Components/Animated/Animated';
 import Blogs from './Components/Blogs/Blogs';
 import Clients from './Components/Clients/Clients';
 import Community from './Components/Community/Community';
@@ -24,6 +25,7 @@ function App() {
      <Shareholder/>
      <Blogs/>
      <Community/>
+     <Animated/>
     </div>
   );
 }
