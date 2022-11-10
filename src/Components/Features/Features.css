@@ -1,0 +1,31 @@
+.title_small {
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #5842bc;
+    
+}
+h2 span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f)); */
+    background-image: -webkit-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+    background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+    background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+.features-card .icon {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.features .img-circle {
+    position: absolute;
+    top: 40px;
+    width: 76%;
+    left: 12%;
+    max-height: unset;
+    -webkit-animation: rotate-center 100s linear infinite both;
+    animation: rotate-center 100s linear infinite both;
+}
