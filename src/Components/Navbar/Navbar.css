@@ -2,10 +2,10 @@
     position: relative;
     z-index: 99;
     padding: 20px 15px;
-    background-color: #fff;
+   background-image: url();
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-top: -38px;
+    /* margin-top: 200px; */
 
 }
 img {

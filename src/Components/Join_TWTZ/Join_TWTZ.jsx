@@ -2,8 +2,8 @@ import React from 'react'
 import "./Join_TWTZ.css"
 function Join_TWTZ() {
   return (
-    <div className='join_twtz my-3'>
-    <div className="continer">
+    <div className='join_twtz py-5'>
+    <div className="continer bhhhg">
         <div className="section-head mb-5">
             <div className="top-title mb-2 ">
             <img src="line_l.png" alt="" className='d-inline'/>
@@ -80,11 +80,14 @@ and Enjoy Lifetime Dividends</h2>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+ <span className='two-boy'>
+      <img src="testi7_back.png" className='vert-move' alt="" />
+      {/* <div className='testi_quot '>
+      <img src="testi7_qout.png" className='' alt="" /></div> */}
+    </span>
         </div>
     </div>
-      {/* <img src="testi7_back.png" className='img_back side_up_down' alt="" /> */}
-      {/* <img src="testi7_qout.png" className='testi_quot' alt="" /> */}
-    </div>
+   </div>
   )
 }
 

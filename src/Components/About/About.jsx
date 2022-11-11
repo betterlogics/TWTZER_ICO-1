@@ -5,16 +5,23 @@ import {FaTextWidth} from "react-icons/fa"
 import "./About.css"
 function About() {
   return (
-    <div className='about my-3'>
+    <div className='about mt-3 '>
       <div className="content frs-content" id='about'>
         <div className="container">
             <div className="row align-items-center justify-content-between">
                 <div className="col-lg-6">
-                    <div className="img mb-3 mb-lg-0">
-                        <img src="ipad.png" alt="" />
+                    <div className="img-ipad mt-5 mb-lg-0">
+                        <img src="ipad.png" className='top-wave' alt="" />
+                        <div className="animated-360">
+        <img src="about_s4_bubble.png" alt="" className='bubble' />
+        <div className='back'>
+          <img src="about_s4_lines.png" className='lines' alt="" />
+        </div>
+        
+      </div>
                     </div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 info-contant">
                     <div className="info">
                         <div className="section-head ">
                             <small className="title_small ">Power of Blockchain</small>
@@ -33,10 +40,10 @@ function About() {
                 </div>
             </div>
         </div>
-        {/* <img src="about_s4_bubble.png" alt="" className='bubble' /> */}
-        {/* <img src="about_s4_lines.png" className='lines' alt="" /> */}
-      </div>
-      {/* <img src="about_s4_wave.png" className='top-wave' alt="" /> */}
+        
+        </div>
+     
+     
     </div>
   )
 }

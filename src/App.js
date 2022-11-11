@@ -6,6 +6,7 @@ import Blogs from './Components/Blogs/Blogs';
 import Clients from './Components/Clients/Clients';
 import Community from './Components/Community/Community';
 import Features from './Components/Features/Features';
+import Inp from './Components/Inp/Inp';
 import Join_TWTZ from './Components/Join_TWTZ/Join_TWTZ';
 import Landing from './Components/Landing/Landing';
 import Navbar from './Components/Navbar/Navbar';
@@ -20,6 +21,7 @@ function App() {
      <Landing/>
      <Clients/>
      <Features/>
+     <Inp/>
      <About/>
      <Join_TWTZ/>
      <Shareholder/>

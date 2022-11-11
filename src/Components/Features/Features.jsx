@@ -37,8 +37,9 @@ function Features() {
                 </div>
                 <h6>Distributed Equity</h6> </div>
         </div>
+      
     </div>
-      {/* <img src="feat_circle.png" alt="" className='img-circle'/> */}
+      <img src="feat_circle.png" alt="" className='img-circle'/>
     </div>
   )
 }

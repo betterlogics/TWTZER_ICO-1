@@ -17,3 +17,17 @@
 .bg-gray{
     background-color: #eef4f8;
 }
+.wave{
+    animation-name: wave;
+    transition: 20s;
+}
+@keyframes wave {
+    0% {
+      transform: rotate(  0.0deg ) }
+   
+    50% {
+      transform: rotate( -1.0deg ) }
+  
+    100% {
+      transform: rotate(  0.0deg ) }
+  }

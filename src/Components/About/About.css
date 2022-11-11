@@ -6,3 +6,37 @@
     color: #5842bc;
     margin-bottom: 20px !important;
 }
+.animated-360{
+    position: relative;
+    bottom: 31pc;
+    right: 21%;
+    z-index: -1;
+}
+.back{
+    position: absolute;
+    top: -35%;
+}
+.info-contant{
+    position: relative;
+    bottom: 16pc;
+}
+.top-wave{
+    margin-top: -16%;
+}
+.about{
+    margin-top: 20%!important;
+}
+
+.bubble {
+    -webkit-animation: mymove 2s linear infinite;
+    animation: mymove 19s linear infinite;
+  }
+  
+  @keyframes mymove {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    
+  }
+  .frs-content{
+    height: 42pc;
+  }

@@ -49,7 +49,7 @@ function Landing() {
         </div>
       </div>
     </div>
-      {/* <img src="header_4_wave.png" className='wave' alt="" /> */}
+      <img src="header_4_wave.png" className='wave' alt="" />
     </div>
   )
 }
